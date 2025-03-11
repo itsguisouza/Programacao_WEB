@@ -1,0 +1,15 @@
+<div [ngSwitch]="postId">
+    <div *ngSwitchCase="'1'">
+        <h1>Pessoa olhando para o lado</h1>
+    </div>
+    <div *ngSwitchCase="'2'">
+        <h1>Urso criado por IA</h1>
+    </div>
+    <div *ngSwitchCase="'3'">
+        <h1>Cachorro astronauta</h1>
+    </div>
+    <div *ngSwitchDefault>
+        <h1>Post não encontrado</h1>
+    </div>
+</div>
+<a routerLink="/posts">Voltar</a>

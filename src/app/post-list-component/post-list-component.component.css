@@ -1,0 +1,15 @@
+.picsum-img-wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer
+}
+
+.picsum-img-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}

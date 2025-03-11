@@ -1,0 +1,36 @@
+<section class="h-10 d-flex align-items-center">
+    <h3 class="display-2">Esses são os nossos posts.</h3>
+</section>
+
+<ngb-carousel>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img src="../../assets/img/img1.webp" alt="Random first slide" routerLink="1"
+                style="cursor: pointer;" />
+        </div>
+        <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img src="../../assets/img/img2.webp" alt="Random second slide" routerLink="2"
+                style="cursor: pointer;" />
+        </div>
+        <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img src="../../assets/img/img3.png" alt="Random third slide" routerLink="3"
+                style="cursor: pointer;" />
+        </div>
+        <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+    </ng-template>
+</ngb-carousel>
